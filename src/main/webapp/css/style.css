@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+
+form{
+	
+	width: 200px;
+	margin: auto;
+	background: whitesmoke;
+	padding: 15px;
+	border-radius: 15px;
+	border: 5px solid #ddd;
+	box-shadow: 3px 4px 7px black;
+
+}
+
+input[type="text"],input[type="email"]{
+	
+	border-color: darkblue;
+	border-radius: 15px;
+	
+}
+
+#age{
+	
+	width:50px;
+	
+}
+
+input[type="text"]:focus,input[type="email"]:focus{
+	
+	background:#e1eef2;
+
+}
+
+input[type="submit"]{
+	
+	background:darkblue;
+	color:white;
+	padding:5px;
+	border-radius:15px;
+	box-shadow : 1px 2px 1px black;
+	transition:0.5s;
+
+}
+
+input[type="submit"]:active{
+	
+	box-shadow : 0 0 0 ;
+	
+}
+
